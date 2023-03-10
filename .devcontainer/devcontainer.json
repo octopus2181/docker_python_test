@@ -3,6 +3,5 @@
 {
 	"name": "stock_stat_tmp",
 	"dockerComposeFile": "docker-compose.yml",
-	"service": "stat",
-	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
+	"service": "stat"
 }
