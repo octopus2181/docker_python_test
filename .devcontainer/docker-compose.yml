@@ -3,7 +3,7 @@ version: '3.8'
 services:
   stat:
     build:
-      dockerfile: Dockerfile
+      dockerfile: ./Dockerfile
     volumes:     
       - ".stock/jobs:/data/stock"
       - ".stock/log:/data/log"
