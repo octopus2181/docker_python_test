@@ -3,6 +3,7 @@ version: '3.8'
 services:
   stat:
     build:
+      context: .
       dockerfile: ./Dockerfile
     volumes:     
       - ".stock/jobs:/data/stock"
